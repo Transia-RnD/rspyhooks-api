@@ -1,0 +1,10 @@
+node_modules
+build
+xahau
+dist
+target
+scripts/*/*
+!scripts/**/*.c
+!scripts/**/*.cpp
+!scripts/**/*.h
+Cargo.lock

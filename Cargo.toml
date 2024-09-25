@@ -1,0 +1,11 @@
+[package]
+name = "example_wasm_py"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustpython = { path = "../RustPython", default-features = false, features = ["freeze-stdlib"] }
+rustpython-vm = { path = "../RustPython/vm", default-features = false, features = ["freeze-stdlib"] }
+rustpython-pylib = { path = "../RustPython/pylib", default-features = false, features = ["freeze-stdlib"] }
+
+[workspace]
